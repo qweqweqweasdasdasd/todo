@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./layer/theme/default/layer.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    	h1{
+    		text-align: center;
+    	}
+    	th{
+    		text-align: center;
+    	}
+    	td{
+    		vertical-align: middle;text-align: center;
+    	}
+    </style>
+  </head>
+  <body>
+  	<div class="container">
+  		<h1>我们可以为这个世界做很多事</h1>
+  		<button class="btn btn-default" id="onOff">预览全部</button>
+  		<button class="btn btn-default pull-right">添加伙伴</button>
+  		<div class="clearfix"></div>
+  		<br/>
+  		<div class="panel-group" id="accordion">
+		    <div class="panel panel-default">
+		        <div class="panel-heading">
+		            <h4 class="panel-title">
+		                <a data-toggle="collapse" data-parent="#accordion" class="btn" 
+		                href="#1">
+		                点开: 张三
+		                </a>
+		                <button class="btn btn-default pull-right">添加笔记</button>
+		                <div class="clearfix"></div>
+		            </h4>
+		        </div>
+		        <div id="1" class="panel-collapse collapse in">
+		            <div class="panel-body table-responsive">
+		               	<table class="table">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>微信号</th>
+									<th>好友人数</th>
+									<th>注册人数</th>
+									<th>注册平台</th>
+									<th>存款人数</th>
+									<th>创建时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>wx001</td>
+									<td>500</td>
+									<td>30</td>
+									<td>三彩</td>
+									<td>3</td>
+									<td>2018-8-3</td>
+									<td><button type="button" class="btn btn-default btn-sm">删除记录</button></td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>wx001</td>
+									<td>500</td>
+									<td>30</td>
+									<td>三彩</td>
+									<td>3</td>
+									<td>2018-8-3</td>
+									<td><button type="button" class="btn btn-default btn-sm">删除记录</button></td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>wx001</td>
+									<td>500</td>
+									<td>30</td>
+									<td>三彩</td>
+									<td>3</td>
+									<td>2018-8-3</td>
+									<td><button type="button" class="btn btn-default btn-sm">删除记录</button></td>
+								</tr>
+							</tbody>
+						</table>
+		            </div>
+		        </div>
+		    </div>
+		    <!-- panel-> panel-f -> panel -l -->
+		    <div class="panel panel-default">
+		    	<div class="panel-heading">
+		            <h4 class="panel-title">
+		                <a data-toggle="collapse" data-parent="#accordion" class="btn" 
+		                href="#2">
+		                点开: 王五
+		                </a>
+		                <button class="btn btn-default pull-right">添加笔记</button>
+		                <div class="clearfix"></div>
+		            </h4>
+		        </div>
+		        <div id="2" class="panel-collapse collapse in">
+		            <div class="panel-body table-responsive">
+		               	<table class="table">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>微信号</th>
+									<th>好友人数</th>
+									<th>注册人数</th>
+									<th>注册平台</th>
+									<th>存款人数</th>
+									<th>创建时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>wx001</td>
+									<td>500</td>
+									<td>30</td>
+									<td>三彩</td>
+									<td>3</td>
+									<td>2018-8-3</td>
+									<td><button type="button" class="btn btn-default btn-sm">删除记录</button></td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>wx001</td>
+									<td>500</td>
+									<td>30</td>
+									<td>三彩</td>
+									<td>3</td>
+									<td>2018-8-3</td>
+									<td><button type="button" class="btn btn-default btn-sm">删除记录</button></td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>wx001</td>
+									<td>500</td>
+									<td>30</td>
+									<td>三彩</td>
+									<td>3</td>
+									<td>2018-8-3</td>
+									<td><button type="button" class="btn btn-default btn-sm">删除记录</button></td>
+								</tr>
+							</tbody>
+						</table>
+		            </div>
+		        </div>
+		    </div>
+
+		</div>
+  	</div>
+  </body>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./layer/layer.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+</html>
